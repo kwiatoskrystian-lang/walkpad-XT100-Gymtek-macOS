@@ -87,7 +87,7 @@ Aplikacja żyje w pasku menu macOS. Ma animowanego pixel-artowego zwierzaka (mop
 
 ```bash
 # Sklonuj repo
-git clone https://github.com/kwiatoskrystian-lang/walkpad-XT100-Gymtek-macOS.git
+git clone https://github.com/yourusername/walkpad-XT100-Gymtek-macOS.git
 cd walkpad-XT100-Gymtek-macOS
 
 # Zbuduj
@@ -202,7 +202,7 @@ It lives in the macOS menu bar with an animated pixel-art pet (pug or raccoon) t
 
 ```bash
 # Clone the repo
-git clone https://github.com/kwiatoskrystian-lang/walkpad-XT100-Gymtek-macOS.git
+git clone https://github.com/yourusername/walkpad-XT100-Gymtek-macOS.git
 cd walkpad-XT100-Gymtek-macOS
 
 # Build

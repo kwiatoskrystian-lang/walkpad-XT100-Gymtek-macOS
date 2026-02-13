@@ -19,7 +19,7 @@ final class ProfileManager {
         profilesFileURL = baseDir.appendingPathComponent("profiles.json")
 
         // Temporary — will be overwritten below
-        activeProfile = UserProfile(id: "default", displayName: "Krystian", petType: .mops)
+        activeProfile = UserProfile(id: "default", displayName: "Player 1", petType: .mops)
 
         loadOrCreateProfiles()
         migrateRootFilesIfNeeded()
@@ -74,8 +74,8 @@ final class ProfileManager {
             activeProfile = loaded[0]
         } else {
             let defaultProfiles = [
-                UserProfile(id: "default", displayName: "Krystian", petType: .mops),
-                UserProfile(id: "natalia", displayName: "Natalia", petType: .raccoon),
+                UserProfile(id: "default", displayName: "Player 1", petType: .mops),
+                UserProfile(id: "player2", displayName: "Player 2", petType: .raccoon),
             ]
             profiles = defaultProfiles
             activeProfile = defaultProfiles[0]
